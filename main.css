@@ -99,7 +99,7 @@ header{
 .middle_page{
     height:100vh;
     padding-right: 40px;
-    background-image: url('/img/leaves.webp');
+    background-image: url('//img/leaves.webp');
 }
 .carousel-item img{
     z-index: 1;
