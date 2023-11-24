@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-image: linear-gradient(rgba(115, 199, 255, 0.603), rgba(115, 199, 255, 0.589)),url(./img/fondoheader.jpeg);
+    background-position:40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    flex-wrap: wrap;
+    height: 15vh;
+}
+
+h1{
+    text-shadow: 3px 3px 3px white;
+    font-family: 'Croissant One', cursive;
+
+}
+.imageUni{
+    padding: 1rem;
+    width: 50vw;
+    height: 35vw;
+}
+
+.conte1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.conte1 p {
+    text-align: justify;
+    width: 40vw;
+    font-size: larger;
+}
+
+main{
+    min-height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+footer{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-image: url("./img/tactile_noise.webp");
+    padding: 1rem;
+    height: 8vh;
+
+}
+
+@media (max-width: 768px){
+    .imageUni{
+        width: 90vw;
+        height: 70vw;
+    }
+
+    .conte1 p {
+        width: 85vw;
+        font-size:larger;
+    }
+
+    h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px){
+    .imageUni{
+        width: 98vw;
+        height: 38vh;
+    }
+}

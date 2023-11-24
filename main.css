@@ -125,7 +125,7 @@ header{
     border-radius: 20px;
     border: 2px solid #000;
     color: #000;
-    font-size: 20px;
+    font-size: 34px;
     font-weight: 600;
 }
 .carousel-text a:hover{
@@ -190,7 +190,7 @@ header{
     padding-bottom: 0;
 }
 footer{
-    height: 40vh;
+    height: 15vh;
     background-image: url("./img/tactile_noise.webp");
     display: flex;
     justify-content: space-around;
